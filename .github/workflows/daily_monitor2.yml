@@ -3,7 +3,7 @@ name: 政府采购意向监控
 on:
   schedule:
     # 每天北京时间上午9点运行（UTC时间凌晨1点）
-    - cron: '0 1 * * *'
+    - cron: '0 4 * * *'
   workflow_dispatch:  # 允许手动触发
 
 jobs:
